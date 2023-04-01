@@ -187,9 +187,10 @@ img.logo {
   height: 69px;
   position: relative;
   width: 475px;
+  top: 10px;
 }
 .title {
-  color: white;
+  /* color: white;
   font-family: var(--font-family-jockey-one);
   font-size: 25px;
   font-weight: 400;
@@ -200,10 +201,18 @@ img.logo {
   position: absolute;
   text-align: center;
   top: 0;
+  white-space: nowrap; */
+  text-align: center;
+  color: white;
+  font-family: var(--font-family-jockey-one);
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3.36px;
   white-space: nowrap;
+  /* line-height: 2; */
 }
 .stuff {
-  color: white;
+  /* color: white;
   height: 24px;
   left: 60px;
   letter-spacing: 1.4px;
@@ -212,6 +221,12 @@ img.logo {
   text-align: center;
   top: 45px;
   white-space: nowrap;
+  font-size: 20px; */
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.4px;
+  white-space: nowrap;
+  font-size: 20px;
 }
 .recipe {
   align-items: center;

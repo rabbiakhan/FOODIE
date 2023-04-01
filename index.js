@@ -3,7 +3,7 @@ function changeText() {
   let text = document.querySelector("#para-text");
   let input = document.querySelector("#input-value");
   text.innerHTML = input.value;
-  text = document.querySelector("#para-text").style.fontSize = "40px";
+  text = document.querySelector("#para-text").style.fontSize = "30px";
   text = document.querySelector("#para-text").style.textAlign = "center";
   text = document.querySelector("#para-text").style.textTransform = "uppercase";
 }

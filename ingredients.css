@@ -362,7 +362,7 @@ img.logo {
   text-align: center;
   color: white;
   font-family: var(--font-family-jockey-one);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 3.36px;
   white-space: nowrap;
@@ -372,6 +372,7 @@ img.logo {
   text-align: center;
   letter-spacing: 1.4px;
   white-space: nowrap;
+  font-size: 20px;
 }
 /* * {
   box-sizing: border-box;

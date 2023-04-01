@@ -36,12 +36,13 @@
             <li> <a class="navbar-ingredients navitems" href="ingredients.html">Ingredients</a></li>
           <li> <a class="navbar-recipe navitems" href="#">Recipe</a></li>
           </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex" role="search" id="search-form">
               <input
                 class="form-control me-2"
                 type="search"
                 placeholder="Search for 'Rice'"
                 aria-label="Search"
+                id="input-value"
               />
               <button class="btn btn-outline-success" type="submit">
                 Search
@@ -53,7 +54,7 @@
       <!--main content-->
       <main>
         <div class="main">
-          <h1 class="taste">FEEL THE TASTE!!!</h1>
+          <h1 class="taste" id="para-text">FEEL THE TASTE!!!</h1>
           <h4 class="in-season">In season|Cheese and Dairy|Meat and Poultry</h4>
           <!-- Container for the image gallery -->
           <div class="container">
@@ -162,6 +163,7 @@
 </div>
       </footer>
     </div>
+    <script src="index.js"></script>
     <script src="ingredient.js"></script>
   </body>
 </html>

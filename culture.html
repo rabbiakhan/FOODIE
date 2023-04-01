@@ -44,12 +44,13 @@
             </li>
             <li><a class="navbar-recipe navitems" href="#">Recipe</a></li>
           </ul>
-          <form class="d-flex" role="search">
+          <form class="d-flex" role="search" id="search-form">
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search for 'Rice'"
+              placeholder="Search for 'Italian'"
               aria-label="Search"
+              id="input-value"
             />
             <button class="btn btn-outline-success" type="submit">
               Search
@@ -88,7 +89,9 @@
             <p class="stuff valign-text-middle inter-bold-white-20px">
               All the stuff you need-and some you don't
             </p>
-            <h1 class="title valign-text-middle">IT WORKS LIKE MAGIC!</h1>
+            <h1 class="title valign-text-middle" id="para-text">
+              IT WORKS LIKE MAGIC!
+            </h1>
           </div>
           <div class="recipe">
             <div class="overlap-group2">
@@ -218,5 +221,6 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
